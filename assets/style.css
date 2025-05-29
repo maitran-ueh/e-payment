@@ -1,0 +1,55 @@
+/* Nền toàn trang */
+body {
+    background-color: #f5f5dc;
+    color: #333; /* chữ mặc định - đen nhạt */
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Tiêu đề */
+h1, h4 {
+    color: #0a9548;
+}
+
+/* Card sản phẩm */
+.card {
+    border: 1px solid #0a9548;
+}
+
+.card-title {
+    color: #0a9548;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #333;
+}
+
+/* Nút hành động */
+.btn-primary, .btn-success, .btn-outline-success {
+    background-color: #0a9548;
+    border-color: #0a9548;
+    color: white;
+}
+
+.btn-primary:hover, .btn-success:hover, .btn-outline-success:hover {
+    background-color: #087c3b;
+    border-color: #087c3b;
+}
+
+/* Nút phụ */
+.btn-secondary {
+    background-color: #ccc;
+    border-color: #bbb;
+    color: #333;
+}
+
+/* Bảng */
+table th {
+    background-color: #0a9548;
+    color: #f5f5dc;
+}
+
+table td {
+    vertical-align: middle;
+    color: #f5f5dc;
+}
